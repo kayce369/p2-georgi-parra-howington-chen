@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Fonts */
+
+h1 {
+    font-family: "Quatro Slab", "Nunito", sans-serif;
+    font-size: 100px;
+    color: #000;
+}
+
+h2 {
+    font-family: "Quatro Slab", "Nunito", sans-serif;
+    font-size: 55px;
+    color: #000;
+}
+
+h3 {
+    font-family: "Quatro Slab", "Nunito", sans-serif;
+    font-size: 35px;
+    color: #000;
+}
+
+h4 {
+    font-family: "Quatro Slab", "Nunito", sans-serif;
+    font-size: 25px;
+    color: #000;
+}
+
+p {
+    font-family: "Trade Gothic Next", "Nunito", sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+/* Header */
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: ;
+}
+
+/* Nav */
+
+.nav {
+    background-color: #000;
+    display: flex;
+    padding: ;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: ;
+    font-size: ;
+}
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: ;
+    border: 1px solid #;
+    padding: ;
+    font-size: ;
+    background: transparent;
+    position: ;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid #;
+    background: #;
+    transition: 1s;
+    text-decoration: none;
+    color: #;
+}
+
+/* Home Page Styling Below */
+
+/* Tour Styling Below */
+
+/* Contact Styling Below */
+
+/* Footer Styling Below */
+
+/* Media Queries */
+
+@media screen and (max-width: 600px){
+
+}
+
+@media(max-width: 700px){
+
+}
+
+@media screen and (max-width:1000px) {
+
+}
+
+@media screen and (max-width:1200px){
+
+}
