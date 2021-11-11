@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Art Institute of Chicago</title>
+    <link rel="stylesheet" href="style.css">
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="images/logo.png"/>
-
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!--FONTS-->
     <!--Quatro Slab-->
     <link rel="stylesheet" href="https://use.typekit.net/oha3ilf.css">
@@ -19,44 +21,106 @@
     
 </head>
 <body>
-
-    <!--DIV for sticky footer-->
-    <div class="site">
-        <!--Header-->
-      <header>
-        <nav class="">
-            <div class="">
-
-            </div>
-        </nav>
-    </header>
-
-    <section class="home hero">
-        <div class="text container">
-          <h1></h1>
-          <p></p>
+  <header>
+    <nav>
+        <img class="logo" src="images/logo.jpg" alt="logo">
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
+            <li><a href="">Tour</a></li>
+            <li><a href="">Tickets</a></li>
+            <li><a href="">Artists</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <!-- home -->
+  <div class="home">
+    <div class="first-row">
+        <img src="images/main_entrance.jpg" alt="Art Institute of Chicago">
+        <div class="placeholder">
+            <h2>PLACEHOLDER</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, laudantium. Fugit molestias exercitationem eos eius quod voluptates quia, veniam sequi! Sit voluptas quas cumque nostrum quos error tenetur iste quo.</p>
         </div>
-      </section>
-
-    <!--Page Content-->
-
-    <div>
-        <div>
-          <div>
-            <h2></h2>
-            <p></p>
-            <button></button>
-          </div>
-
-
-    <!--Footer-->
-    <footer>
-      <div>
-      </div>
-    </footer>
-
-
+    </div>
+    <div class="second-row">
+        <img src="images/hall.jpg" alt="Art Institute of Chicago">
+        <div class="placeholder">
+            <h2>PLACEHOLDER</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, laudantium. Fugit molestias exercitationem eos eius quod voluptates quia, veniam sequi! Sit voluptas quas cumque nostrum quos error tenetur iste quo.</p>
+        </div>
+    </div>
   </div>
+  <!-- ABOUT -->
+  <div class="about-part1">
+    <div class="introdution">
+        <div class="intro-content">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam corrupti temporibus doloremque. Numquam ullam itaque nobis illo quae nesciunt et eaque eveniet repudiandae qui, temporibus commodi, ratione nihil hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nam neque earum quod laudantium atque perspiciatis harum soluta sint libero? Odit officia reiciendis ducimus facere necessitatibus rerum ipsum, minima praesentium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam corrupti temporibus doloremque. Numquam ullam itaque nobis illo quae nesciunt et eaque eveniet repudiandae qui, temporibus commodi, ratione nihil hic.</p>
+        </div>
+        <img src="images/about.jpg" alt="Art Institute of Chicago
+        ">
+    </div>
+    <div class="more-intro">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aliquid cumque qui dolor facilis quis, voluptas aliquam at. Iusto doloremque aperiam quos qui nulla eius. Explicabo atque ratione dicta ab.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nam neque earum quod laudantium atque perspiciatis harum soluta sint libero? Odit officia reiciendis ducimus facere necessitatibus rerum ipsum, minima praesentium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nam neque earum quod laudantium atque perspiciatis harum soluta sint libero? Odit officia reiciendis ducimus facere necessitatibus rerum ipsum, minima praesentium.</p>
+    </div>
+  </div>
+  <!-- LATEST NEWS -->
+  <div class="about-part2">
+    <h2 class="news">Latest News</h2>
+    <div id="cards">
+    
+        <!-- CARD ONE -->
+        <div class="card">
+            <img class="card-img" src="images/exhibition.jpg" alt="exhibition">
+            <div class="card-contents">
+                <h4>EXHIBITION</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis harum sit autem libero, voluptatibus quisquam! 
+                    <span class="card_read-more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eligendi perspiciatis veniam assumenda nihil quas repudiandae eius ratione sequi. Distinctio facilis sint minima necessitatibus. Odio maxime voluptas excepturi molestias! Vitae!</span>
+                </p>
+                <p class="read-more-btn">Read More...</p>
+            </div>
+        </div>
+        <!-- CARD TWO -->
+        <div class="card">
+            <img class="card-img" src="images/exhibition2.jpg" alt="news">
+            <div class="card-body">
+                <h4>NEWS</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis harum sit autem libero, voluptatibus quisquam! 
+                    <span class="card_read-more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eligendi perspiciatis veniam assumenda nihil quas repudiandae eius ratione sequi. Distinctio facilis sint minima necessitatibus. Odio maxime voluptas excepturi molestias! Vitae!</span>
+                </p>
+                <p class="read-more-btn">Read More...</p>
+            </div>
+        </div>
+        <!-- CARD THREE -->
+        <div class="card">
+            <img class="card-img" src="images/ongoing.jpg" alt="exhibition">
+            <div class="card-body">
+                <h4>ONGOING</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis harum sit autem libero, voluptatibus quisquam! 
+                    <span class="card_read-more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eligendi perspiciatis veniam assumenda nihil quas repudiandae eius ratione sequi. Distinctio facilis sint minima necessitatibus. Odio maxime voluptas excepturi molestias! Vitae!</span>
+                </p>
+                <p class="read-more-btn">Read More...</p>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <div>
+    </div>
+  </footer>
+
+
   
+<script src="index.js"></script>  
 </body>
 </html>
