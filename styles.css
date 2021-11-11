@@ -1,91 +1,313 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    overflow-x: hidden;
+body {
+  background-color: #f5f7f9;
+  font-family: "Trade Gothic Next", "Nunito", sans-serif;
+  /* font-family: "ABeeZee", sans-serif; */
 }
 
 /* Fonts */
 
-h1 {
-    font-family: "Quatro Slab", "Nunito", sans-serif;
-    font-size: 100px;
-    color: #000;
-}
-
-h2 {
-    font-family: "Quatro Slab", "Nunito", sans-serif;
-    font-size: 55px;
-    color: #000;
-}
-
-h3 {
-    font-family: "Quatro Slab", "Nunito", sans-serif;
-    font-size: 35px;
-    color: #000;
-}
-
+h1,
+h2,
+h3,
 h4 {
-    font-family: "Quatro Slab", "Nunito", sans-serif;
-    font-size: 25px;
-    color: #000;
-}
-
-p {
-    font-family: "Trade Gothic Next", "Nunito", sans-serif;
-    font-size: 18px;
-    color: #000;
-}
-
-/* Header */
-
-.header {
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: ;
+  font-family: "Quatro Slab", "Nunito", sans-serif;
 }
 
 /* Nav */
+header {
+  background-color: #c6d4d9;
+  opacity: 1;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  font-size: 19px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+}
 
-.nav {
-    background-color: #000;
-    display: flex;
-    padding: ;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Nunito", sans-serif;
-    letter-spacing: ;
-    font-size: ;
+.logo {
+  max-width: 100px;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.hamburger {
+  display: block;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+.nav-ul {
+  display: none;
+}
+
+.nav-ul.show {
+  display: flex;
+}
+
+.nav-ul {
+  width: 100%;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.nav-ul li {
+  padding: 1rem 0rem;
+  margin: auto;
+}
+
+.nav-ul li a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 /* Button */
-
-.btn {
+/* here is the readmore button styling for reference */
+/* 
+.read-more-btn {
     display: inline-block;
-    text-decoration: none;
-    color: ;
-    border: 1px solid #;
-    padding: ;
-    font-size: ;
-    background: transparent;
-    position: ;
-    cursor: pointer;
-}
-
-.btn:hover {
-    border: 1px solid #;
-    background: #;
-    transition: 1s;
-    text-decoration: none;
-    color: #;
-}
+    color: #eee;
+    background-color: #be3649;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: #be3649;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
+  }
+  
+  .read-more-btn:hover {
+    box-shadow: 0 0 2rem rgb(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  } 
+*/
 
 /* Home Page Styling Below */
+/* ----------------home-------------------- */
+.home {
+  width: 100%;
+  margin: auto;
+  border-bottom: 2px solid #be3649;
+}
+
+.placeholder {
+  width: 80%;
+  margin: 3rem auto 5rem;
+  text-align: center;
+}
+
+.placeholder p {
+  line-height: 2rem;
+}
+
+.placeholder h2 {
+  margin-bottom: 1rem;
+}
+.second-row {
+  margin-top: 2rem;
+}
+
+.second-row {
+  padding-bottom: 10rem;
+}
+
+.home img {
+  width: 100%;
+  margin: auto;
+}
+/* ----------------about-------------------- */
+.about-part1 {
+  margin: 5rem auto;
+  width: 80%;
+}
+
+.intro-content h1 {
+  text-align: center;
+}
+
+.intro-content p,
+.more-intro p {
+  margin: 1rem 0rem 2rem;
+}
+
+.introdution img {
+  width: 100%;
+  margin: auto;
+}
+
+.news {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#cards {
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  margin: 40px 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card-img {
+  width: 100%;
+  max-height: 194px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 0.8rem;
+  line-height: 28px;
+}
+
+.card_read-more {
+  display: block;
+  opacity: 0;
+  height: 0;
+  transition: all 0.5s;
+  overflow: scroll;
+}
+
+.card_read-more--open {
+  display: block;
+  opacity: 1;
+  height: 10rem;
+}
+
+.read-more-btn {
+  display: inline-block;
+  color: #eee;
+  background-color: #be3649;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: #be3649;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+}
+
+.read-more-btn:hover {
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+/*homepage media query*/
+
+@media screen and (min-width: 770px) {
+  .hamburger {
+    display: none;
+  }
+  .nav-ul {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .nav-ul li {
+    padding: 2rem 0rem;
+  }
+
+  .about-part1 {
+    width: 85%;
+  }
+
+  .introdution {
+    display: flex;
+  }
+  .introdution img {
+    width: 40%;
+    margin: 0;
+    object-fit: cover;
+  }
+  .intro-content h1 {
+    text-align: left;
+  }
+  .intro-content {
+    margin: auto;
+    width: 50%;
+  }
+  .more-intro {
+    width: 80%;
+    margin: 70px auto;
+  }
+  .more-intro p {
+    margin-top: 1rem;
+  }
+  .about-part2 {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #cards {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin: auto;
+  }
+
+  .home {
+    margin: auto;
+  }
+
+  .placeholder {
+    text-align: left;
+  }
+
+  .first-row,
+  .second-row {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .home img {
+    object-fit: cover;
+    max-height: 322px;
+  }
+  .first-row {
+    flex-direction: row-reverse;
+  }
+  .first-row img {
+    max-height: 323px;
+  }
+  .second-row .placeholder {
+    padding-bottom: 0;
+  }
+  .placeholder {
+    margin: auto 2rem;
+  }
+}
 
 /* Tour Styling Below */
 
@@ -95,18 +317,14 @@ p {
 
 /* Media Queries */
 
-@media screen and (max-width: 600px){
-
+@media screen and (max-width: 600px) {
 }
 
-@media(max-width: 700px){
-
+@media (max-width: 700px) {
 }
 
-@media screen and (max-width:1000px) {
-
+@media screen and (max-width: 1000px) {
 }
 
-@media screen and (max-width:1200px){
-
+@media screen and (max-width: 1200px) {
 }
