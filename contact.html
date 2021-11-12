@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Art Institute of Chicago</title>
+    <link rel="stylesheet" href="styles.css">
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="images/logo.png"/>
@@ -19,34 +20,64 @@
     
 </head>
 <body>
+  <!--Header-->
+  <header>
+    <nav>
+        <img class="logo" src="images/logo.jpg" alt="logo">
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
+            <li><a href="">Tour</a></li>
+            <li><a href="">Tickets</a></li>
+            <li><a href="">Artists</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
 
     <!--DIV for sticky footer-->
     <div class="site">
-        <!--Header-->
-      <header>
-        <nav class="">
-            <div class="">
+      
+    <section class="home-hero">
+        <div class="text-container">
+          <h1 class="Contact">Contact</h1>
+          <p>We’re thrilled to welcome you to our galleries to experience firsthand the beauty and power of art. As you plan your visit, please acquaint yourself with our hours. If you have any questions, contact us!</p>
+        </div>
+        <div class="contact-buttons">
+          <button class="v-tour">Virtual Tour</button> 
+          <button class="tickets">Tickets</button>
 
-            </div>
-        </nav>
-    </header>
-
-    <section class="home hero">
-        <div class="text container">
-          <h1></h1>
-          <p></p>
         </div>
       </section>
+     
+      <div class="contact">
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.616889343395!2d-87.62590734884532!3d41.87958847319788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca3e2d94695%3A0x4829f3cc9ca2d0de!2sThe%20Art%20Institute%20of%20Chicago!5e0!3m2!1sen!2sus!4v1636677741239!5m2!1sen!2sus" width="100" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        <div class="contact-form">
+          <h2>Get In Touch</h2>
+          <p>Michigan Avenue Entrance</p>
+            <p>111 South Michigan Avenue</p>
+            <p>Chicago, Illinois 60603</p><br/>
+            <form>
+              <input type="text" placeholder="Name" class="contact-form-text"/>
+              <input type="text" placeholder="Email" class="contact-form-text"/>
+              <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+              <input type="submit" name="Submit" class="contact-form-btn" />
+            </form>
+        </div>
+      </div>
 
-    <!--Page Content-->
+      <section class="subscribe">
+        <h3>Subscribe to our weekly newsletter!</h3>
+        <button>Subscribe</button>
+   
+      </section>
 
-    <div>
-        <div>
-          <div>
-            <h2></h2>
-            <p></p>
-            <button></button>
-          </div>
+
+
 
 
     <!--Footer-->
@@ -57,6 +88,17 @@
 
 
    </div>
-
+   <script src="js/index.js"></script>  
 </body>
 </html>
+
+<!--<div>
+  <div>
+    <div>
+      <h2>Get In Touch</h2>
+      <p>Michigan Avenue Entrance
+        111 South Michigan Avenue
+        Chicago, Illinois 60603</p>
+        <p>(312) 443-3907</p>
+      <button></button>
+    </div>-->
