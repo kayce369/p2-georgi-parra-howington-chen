@@ -19,6 +19,14 @@ h4 {
   font-family: "Quatro Slab", "Nunito", sans-serif;
 }
 
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /* Nav */
 header {
   background-color: #c6d4d9;
@@ -216,6 +224,48 @@ nav {
 .read-more-btn:hover {
   box-shadow: 0 0 2rem rgb(0, 0, 0, 0.2);
   transform: translateY(-3px);
+}
+
+/*Popup Box*/
+#popup-box {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 50%; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 5px solid #be3649;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.popup-content p {
+  padding-top: 10px;
+}
+
+#close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*homepage media query*/
