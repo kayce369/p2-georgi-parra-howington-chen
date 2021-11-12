@@ -361,11 +361,121 @@ nav {
 
 /* Tour Styling Below */
 
-/* Contact Styling Below */
+/* Contact Styling*/
+.home-hero,
+.subscribe{
+  background-color: #aab6ba;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+section.home-hero {
+  padding: 50px;
+}
+
+h1.Contact {
+  font-size: 3.3em;
+}
+.contact-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 45px 65px;
+}
+.v-tour, .tickets{
+  padding: 15px 50px;
+  font-size: 1em;
+} 
+
+.contact{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 50px;
+}
+
+.contact-map{
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  padding: 35px;
+}
+.contact-map iframe{
+  width: 100%;
+  height: 100%;
+}
+.contact-form{
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+
+.contact-form h1{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.contact-form-text,
+.contact-form-textarea{
+  width: 100%;
+  color:#000;
+  border: 1px solid #bcbcbc;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.contact-form-text{
+  height: 40px;
+}
+.contact-form-textarea{
+  height: 130px;
+}
+
+.contact-form-btn{
+  width: 100%;
+  border: none;
+  padding: 20px;
+  background-color: #be3649;
+  color: #eee;
+  font-size: 1.3em;
+  font-weight: bolder;
+  font-family:"Nunito", sans-serif;
+  text-transform: uppercase;
+}
+.contact-form-btn:hover{
+  color: #000000;
+  
+}
+/*section.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  font-size: 1em;
+  padding-left: 50px;
+}
+form.subscribe-form {
+  width: 100%;
+}
+input.subscribe-form-text {
+  padding: 15px;
+  color: #000;
+  background-color: #aab6ba;
+ 
+ 
+}
+input.subscribe-form-text::placeholder {
+font-size: 1.3em;
+font-family:"Nunito", sans-serif;
+
+}
+
 
 /* Footer Styling Below */
 
-/* Media Queries */
+/* //////////////Media Queries///////////////// */
 
 @media screen and (max-width: 600px) {
 }
