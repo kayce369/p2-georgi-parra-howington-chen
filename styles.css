@@ -320,8 +320,12 @@ nav {
   flex-direction: row;
   align-items: baseline;
 }
+section.home-hero {
+  padding: 50px;
+}
+
 h1.Contact {
-  font-size: 3em;
+  font-size: 3.3em;
 }
 .contact-buttons {
   display: flex;
@@ -339,13 +343,15 @@ h1.Contact {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;;
+  align-content: center;
+  padding: 50px;
 }
+
 .contact-map{
   width: 100%;
   height: auto;
   flex: 50%;
-  padding: 30px;
+  padding: 35px;
 }
 .contact-map iframe{
   width: 100%;
@@ -389,6 +395,33 @@ h1.Contact {
   font-family:"Nunito", sans-serif;
   text-transform: uppercase;
 }
+.contact-form-btn:hover{
+  color: #000000;
+  
+}
+/*section.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  font-size: 1em;
+  padding-left: 50px;
+}
+form.subscribe-form {
+  width: 100%;
+}
+input.subscribe-form-text {
+  padding: 15px;
+  color: #000;
+  background-color: #aab6ba;
+ 
+ 
+}
+input.subscribe-form-text::placeholder {
+font-size: 1.3em;
+font-family:"Nunito", sans-serif;
+
+}
+
 
 /* Footer Styling Below */
 
