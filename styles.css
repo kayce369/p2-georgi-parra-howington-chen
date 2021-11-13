@@ -315,6 +315,16 @@ ul li a:hover::after {
   margin-top: 10px;
 }
 
+#art {
+  width: 80%;
+  margin: auto;
+}
+
+#art img {
+  width: 100%;
+  max-width: 843px;
+}
+
 /*homepage media query*/
 
 @media screen and (min-width: 770px) {
