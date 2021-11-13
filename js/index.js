@@ -70,5 +70,25 @@ function renderArt(artInfo) {
   title.textContent = artInfo.data.title
   art.appendChild(title)
 
+  var artImg = document.createElement('img')
+  artImg.src = artInfo.config.iiif_url + '/' + artInfo.data.image_id + '/full/843,/0/default.jpg'
+  artImg.alt = artInfo.data.thumbnail.alt_text
+  art.appendChild(artImg)
+
+  var artist = document.createElement('p')
+  artist.textContent = 'Artist: ' + artInfo.data.artist_title
+  art.appendChild(artist)
+
+  var year = document.createElement('p')
+  year.textContent = 'Created: ' + artInfo.data.date_display
+  art.appendChild(year)
+
+  var medium = document.createElement('p')
+  medium.textContent = 'Medium: ' + artInfo.data.medium_display
+  art.appendChild(medium)
+
+  var credit = document.createElement('p')
+  credit.textContent = 'Art made available by ' + artInfo.data.credit_line
+  art.appendChild(credit)
 }
 
