@@ -49,25 +49,26 @@ var tourBtn = document.getElementById('tour');
 
 tourBtn.onclick = function(showArt) {
   showArt.preventDefault()
-  var artID = Math.floor(Math.random() * 115540) + 4;
+  var artID = Math.floor(Math.random() * 115540);
   fetch('https://api.artic.edu/api/v1/artworks/' + artID)
   .then(function(response) {
     return response.json()
   })
   .then(function(result) {
-    console.log(result)
-    showArt(result)
+    renderArt(result)
   })
 }
 
-function showArt(artObj) {
+function renderArt(artInfo) {
   art.innerHTML = ''
 
-  if (artObj.status === '404') {
+  if (artInfo.status === 404) {
     art.textContent = 'Try Again'
   }
+
+  var title = document.createElement('h2')
+  title.textContent = artInfo.data.title
+  art.appendChild(title)
+
 }
 
-var title = document.createElement('h2')
-title.textContent = artObj.data.title
-art.appendChild(title)
