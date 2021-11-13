@@ -20,3 +20,26 @@ cardHolder.addEventListener('click',e=>{
     currentText.classList.toggle('card_read-more--open');
     current.textContent = current.textContent.includes('Read More...')?'Read Less...' :'Read More...'
 })
+
+//Popup Box
+var popup = document.getElementById('popup-box');
+var span = document.getElementById('close');
+
+window.onload = function() {boxLoad()};
+
+function boxLoad() {
+  setTimeout(function() {
+      popup.style.display = "block";
+    }, 
+    5000);
+};
+
+span.onclick = function() {
+    popup.style.display = "none";
+  };
+
+window.onclick = function(outside) {
+  if (outside.target == popup) {
+    popup.style.display = "none";
+  }
+};
