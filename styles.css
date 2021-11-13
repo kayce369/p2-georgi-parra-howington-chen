@@ -469,42 +469,129 @@ h1.Contact {
 .contact-form-btn:hover {
   color: #000000;
 }
-/*section.subscribe {
-  display: flex;
-  flex-direction: column;
-  align-items:flex-start;
-  font-size: 1em;
-  padding-left: 50px;
-}
-form.subscribe-form {
-  width: 100%;
-}
-input.subscribe-form-text {
-  padding: 15px;
-  color: #000;
-  background-color: #aab6ba;
- 
- 
-}
-input.subscribe-form-text::placeholder {
-font-size: 1.3em;
-font-family:"Nunito", sans-serif;
-
-}
-
 
 /* Footer Styling Below */
-
-/* //////////////Media Queries///////////////// */
-
-@media screen and (max-width: 600px) {
+.subscribe-section {
+  text-align: center;
+  margin-top: 10rem;
+  background-color: #be3649;
+  padding: 5%;
+  color: white;
 }
 
-@media (max-width: 700px) {
+.subscribe-section .h3 {
+  padding-top: 1%;
 }
 
-@media screen and (max-width: 1000px) {
+.subscribe-section button {
+  margin-top: 19px;
+  color: white;
+  background-color: #c6d4d9;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 9px;
+  transition: all 0.5s;
 }
 
-@media screen and (max-width: 1200px) {
+.subscribe-section button:hover {
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+footer {
+  padding: 5%;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding: 3% 3%;
+}
+
+.address div {
+  padding: 0 0 3% 0;
+}
+
+.address h3 {
+  font-size: 1em;
+}
+
+.address p {
+  font-size: 0.9em;
+}
+
+.social {
+  padding: 7%;
+  text-align: center;
+}
+
+.privacy-policy {
+  display: flex;
+  justify-content: space-around;
+  color: #5d6966;
+  font-size: 0.6em;
+}
+
+.link-secondary {
+  color: black;
+}
+
+/* Footer Media Queries */
+
+@media screen and (min-width: 650px) {
+  .subscribe-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subscribe-section button {
+    margin-top: 0px;
+  }
+  .link-secondary {
+    color: black;
+    font-size: 22px;
+    padding: 0.5em;
+  }
+
+  .address {
+    text-align: left;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .subscribe-section h3 {
+    font-size: 1.5em;
+  }
+  .address p {
+    font-size: 1em;
+  }
+
+  .privacy-policy {
+    font-size: 1.2em;
+  }
+
+  .social {
+    padding: 3%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 18px;
+  }
+  .address h3 {
+    font-size: 1.5em;
+  }
+
+  .subscribe-section h3 {
+    font-size: 1.5em;
+  }
+  .address p {
+    font-size: 1.2em;
+  }
+  .subscribe-section a {
+    font-size: 1.2em;
+  }
 }
