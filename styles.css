@@ -26,6 +26,10 @@ h4 {
   font-weight: bold;
 }
 
+.space-abv {
+  margin-top: 20px;
+}
+
 /* Nav */
 header {
   background-color: #c6d4d9;
@@ -286,6 +290,39 @@ ul li a:hover::after {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* ----------------tour-------------------- */
+#tour {
+  margin: auto;
+  display: block;
+  color: #eee;
+  background-color: #be3649;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: #be3649;
+  transition: all 0.5s;
+}
+
+#tour:hover {
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+#art p {
+  margin-top: 10px;
+}
+
+#art {
+  width: 80%;
+  margin: auto;
+}
+
+#art img {
+  width: 100%;
+  max-width: 843px;
 }
 
 /*homepage media query*/
