@@ -311,6 +311,10 @@ ul li a:hover::after {
   cursor: pointer;
 }
 
+#art p {
+  margin-top: 10px;
+}
+
 /*homepage media query*/
 
 @media screen and (min-width: 770px) {
