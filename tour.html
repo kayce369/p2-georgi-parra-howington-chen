@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Art Institute of Chicago</title>
+    <link rel="stylesheet" href="styles.css">
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="images/logo.png"/>
-
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!--FONTS-->
     <!--Quatro Slab-->
     <link rel="stylesheet" href="https://use.typekit.net/oha3ilf.css">
@@ -19,43 +21,42 @@
     
 </head>
 <body>
+  <header>
+    <nav>
+        <img class="logo" src="images/logo.jpg" alt="logo">
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
+            <li><a href="tour.html">Tour</a></li>
+            <li><a href="#">Tickets</a></li>
+            <li><a href="#">Artists</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
 
-    <!--DIV for sticky footer-->
-    <div class="site">
-        <!--Header-->
-      <header>
-        <nav class="">
-            <div class="">
+  
+  <!-- Tour Page -->
 
-            </div>
-        </nav>
-    </header>
+  <h1>Tour the Art Institute of Chicago</h1>
 
-    <section class="home hero">
-        <div class="text container">
-          <h1></h1>
-          <p></p>
-        </div>
-      </section>
+  <p>Click on the Tour Now button below to see some of our collection!</p>
 
-    <!--Page Content-->
+  <main id="art">
 
+  </main>
+
+  <button id="tour">Tour Now!</button>
+
+  <!--Footer-->
+  <footer>
     <div>
-        <div>
-          <div>
-            <h2></h2>
-            <p></p>
-            <button></button>
-          </div>
+    </div>
+  </footer>
 
 
-    <!--Footer-->
-    <footer>
-      <div>
-      </div>
-    </footer>
-
-  </div>
-
+  
+<script src="js/index.js"></script>  
 </body>
 </html>
