@@ -325,97 +325,6 @@ ul li a:hover::after {
   max-width: 843px;
 }
 
-/*homepage media query*/
-
-@media screen and (min-width: 770px) {
-  .hamburger {
-    display: none;
-  }
-  .nav-ul {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    list-style-type: none;
-  }
-
-  .nav-ul li {
-    padding: 2rem 0rem;
-  }
-
-  .about-part1 {
-    width: 85%;
-  }
-
-  .introdution {
-    display: flex;
-  }
-  .introdution img {
-    width: 40%;
-    margin: 0;
-    object-fit: cover;
-  }
-  .intro-content h1 {
-    text-align: left;
-  }
-  .intro-content {
-    margin: auto;
-    width: 50%;
-  }
-  .more-intro {
-    width: 80%;
-    margin: 70px auto;
-  }
-  .more-intro p {
-    margin-top: 1rem;
-  }
-  .about-part2 {
-    width: 85%;
-    margin: auto;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  #cards {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    margin: auto;
-  }
-
-  .home {
-    margin: auto;
-  }
-
-  .placeholder {
-    text-align: left;
-  }
-
-  .first-row,
-  .second-row {
-    display: flex;
-    width: 100%;
-    margin: auto;
-  }
-
-  .home img {
-    object-fit: cover;
-    max-height: 322px;
-  }
-  .first-row {
-    flex-direction: row-reverse;
-  }
-  .first-row img {
-    max-height: 323px;
-  }
-  .second-row .placeholder {
-    padding-bottom: 0;
-  }
-  .placeholder {
-    margin: auto 2rem;
-  }
-}
-
 /* Tour Styling Below */
 
 /* Contact Styling*/
@@ -573,6 +482,97 @@ footer {
 
 .link-secondary {
   color: black;
+}
+
+/*homepage media query*/
+
+@media screen and (min-width: 770px) {
+  .hamburger {
+    display: none;
+  }
+  .nav-ul {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .nav-ul li {
+    padding: 2rem 0rem;
+  }
+
+  .about-part1 {
+    width: 85%;
+  }
+
+  .introdution {
+    display: flex;
+  }
+  .introdution img {
+    width: 40%;
+    margin: 0;
+    object-fit: cover;
+  }
+  .intro-content h1 {
+    text-align: left;
+  }
+  .intro-content {
+    margin: auto;
+    width: 50%;
+  }
+  .more-intro {
+    width: 80%;
+    margin: 70px auto;
+  }
+  .more-intro p {
+    margin-top: 1rem;
+  }
+  .about-part2 {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #cards {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin: auto;
+  }
+
+  .home {
+    margin: auto;
+  }
+
+  .placeholder {
+    text-align: left;
+  }
+
+  .first-row,
+  .second-row {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .home img {
+    object-fit: cover;
+    max-height: 322px;
+  }
+  .first-row {
+    flex-direction: row-reverse;
+  }
+  .first-row img {
+    max-height: 323px;
+  }
+  .second-row .placeholder {
+    padding-bottom: 0;
+  }
+  .placeholder {
+    margin: auto 2rem;
+  }
 }
 
 /* Footer Media Queries */
