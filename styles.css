@@ -573,6 +573,11 @@ footer {
   .placeholder {
     margin: auto 2rem;
   }
+
+  /*Subscribe Section*/
+  .subscribe-section {
+    padding: 3%;
+  }
 }
 
 /* Footer Media Queries */
