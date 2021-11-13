@@ -293,16 +293,16 @@ ul li a:hover::after {
 }
 
 /* ----------------tour-------------------- */
-#tour {
-  margin: auto;
+.tour-btn {
+  margin: 15px auto;
   display: block;
   color: #eee;
   background-color: #be3649;
   padding: 0.6rem 1.5rem;
-  border-radius: 8px;
   margin-top: 15px;
   border: #be3649;
   transition: all 0.5s;
+  width: 110px;
 }
 
 #tour:hover {
@@ -317,15 +317,13 @@ ul li a:hover::after {
 
 #art {
   width: 80%;
-  margin: auto;
+  margin: 15px auto;
 }
 
 #art img {
   width: 100%;
   max-width: 843px;
 }
-
-/* Tour Styling Below */
 
 /* Contact Styling*/
 .home-hero,
@@ -417,9 +415,22 @@ h1.Contact {
 }
 
 /* Footer Styling Below */
+
+/* Sticky Footer */
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.tour-content,
+.contact {
+  flex: 1;
+}
+
 .subscribe-section {
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 10%;
   background-color: #be3649;
   padding: 5%;
   color: white;
@@ -635,5 +646,13 @@ footer {
   }
   .subscribe-section a {
     font-size: 1.2em;
+  }
+
+  footer {
+    padding: 2%;
+  }
+
+  .social {
+    padding: 1%;
   }
 }
