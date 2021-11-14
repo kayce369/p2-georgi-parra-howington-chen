@@ -14,3 +14,6 @@ The group had no issues other than troubleshooting minor coding errors expected 
 * W3 schools - Window setTimeout() Method: https://www.w3schools.com/jsref/met_win_settimeout.asp
 * Art Institute of Chicago API: https://api.artic.edu/docs/#introduction
 * W3 Schools - Math.random(): https://www.w3schools.com/js/js_random.asp
+* How TO - Mobile Navigation Menu: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+* How TO - Read More Read Less Button: https://www.w3schools.com/howto/howto_js_read_more.asp
+
