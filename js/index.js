@@ -10,7 +10,6 @@ const readmoreBtn = document.querySelector('.read-more-btn');
 const text = document.querySelector('.card_read-more');
 const cardHolder = document.getElementById('cards');
 
-
 cardHolder.addEventListener('click',e=>{
     const current= e.target;
     const isReadMoreBtn = current.className.includes('read-more-btn');
