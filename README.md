@@ -17,7 +17,7 @@ The group had no issues other than troubleshooting minor coding errors expected 
 * How TO - Mobile Navigation Menu: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 * How TO - Read More Read Less Button: https://www.w3schools.com/howto/howto_js_read_more.asp
 * Style Guide - https://www.canva.com/
-* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-* https://blog.hubspot.com/service/best-contact-us-pages
-* https://www.youtube.com/watch?v=p9Ubg6Mqq6w&ab_channel=How2Create
+* Guide to Flexbox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* Best Contact Us Pages - https://blog.hubspot.com/service/best-contact-us-pages
+* Contact Page Video Tutorial - https://www.youtube.com/watch?v=p9Ubg6Mqq6w&ab_channel=How2Create
 
