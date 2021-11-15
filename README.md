@@ -20,4 +20,7 @@ The group had no issues other than troubleshooting minor coding errors expected 
 * Guide to Flexbox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * Best Contact Us Pages - https://blog.hubspot.com/service/best-contact-us-pages
 * Contact Page Video Tutorial - https://www.youtube.com/watch?v=p9Ubg6Mqq6w&ab_channel=How2Create
+* CSS Tricks - A Guide to FlexBox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* Best Contact Us Pages: https://blog.hubspot.com/service/best-contact-us-pages
+* CSS Contact Form with iFrame: https://www.youtube.com/watch?v=p9Ubg6Mqq6w 
 
