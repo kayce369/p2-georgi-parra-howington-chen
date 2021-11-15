@@ -646,6 +646,10 @@ footer {
     padding: 0.5em;
   }
 
+  .address {
+    flex-direction: row;
+  }
+
   @media screen and (max-width: 600px) {
     .address {
       text-align: left;
@@ -741,7 +745,7 @@ footer {
       padding: 50px;
     }
     .home-hero h1,
-    p {
+    .home-hero p {
       padding-right: 50%;
       text-align: left;
       margin: auto;
